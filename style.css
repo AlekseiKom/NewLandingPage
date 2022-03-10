@@ -138,6 +138,9 @@ body {
 	z-index: 2;
 	margin: -111px 0px 0px 0px;
 }
+
+.page__clients {
+}
 .page__advantages {
 }
 .page__practice {
@@ -550,11 +553,13 @@ body {
 	object-fit: cover;
 }
 .whoweare__content {
+	margin-top: 70px;
 	flex: 1 1 auto;
 	padding: 20px 0px 0px 121px;
 }
 @media (max-width: 1080px) {
 	.whoweare__content {
+		margin-top: 20px;
 		padding: 0px 0px 0px 50px;
 	}
 }
@@ -624,6 +629,31 @@ body {
 	overflow: hidden;
 	text-overflow: ellipsis;
 }
+
+/* ------------CLIENTS------------------------------------------------------------------------ */
+
+.clients {
+	padding: 50px 0;
+}
+.clients__container {
+}
+.clients__items {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: center;
+	
+}
+.clients__item {
+	padding: 8px 15px;
+	flex: 0 1 16.6667%;
+    text-align: center;
+	min-width: 140px;
+}
+.clients__item img {
+	min-width: 100%;
+}
+
 /* ------------FOOTER------------------------------------------------------------------------ */
 .footer {
 color: rgb(92, 85, 85);
