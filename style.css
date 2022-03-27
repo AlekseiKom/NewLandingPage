@@ -606,6 +606,9 @@ body {
 	overflow: hidden;
 	text-overflow: ellipsis;
 }
+.plain__image {
+	padding-bottom: 10px;
+}
 @media (max-width: 1080px) {
 	.whoweare__content {
 		padding: 0px 0px 0px 50px;
@@ -625,9 +628,9 @@ body {
 	.whoweare__content {
 		padding: 0px 0px 0px 0px;
 	}
-	.whoweare__video {
+	 .whoweare__video {
 		padding: 0px 0px 56.25% 0px;
-	}
+	} 
 	.whoweare__video:not(:last-child) {
 		margin: 50px 0px 0px 0px;
 	}
